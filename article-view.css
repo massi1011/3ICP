@@ -1,0 +1,53 @@
+.header.header_article{
+    height: 450px;
+}
+.header_article .header__texture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top :0;
+    left :0;
+    background: url('https://c.pxhere.com/photos/39/47/cube_eyes_fall-1405107.jpg!d') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.5; 
+}
+
+.article_view_container{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.article_view_title{
+    font-weight: 900;
+    margin: 0;
+    color: #60a3bc;
+    font-size: 40px;
+}
+
+.article_view_subtitle{
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 0;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slategrey;
+}
+
+.article_view_content{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 17px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slategrey;
+    margin-bottom: 50px;
+}
+.Lettrine{
+  font-family:lobster;
+  font-size:3em;
+}
